@@ -1,5 +1,24 @@
 body{
-	background-color: #000000;
+	/* Animated background */
+	background: linear-gradient(45deg, #05080E, #16243b, #05080E, #16243b);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+}
+
+/* Animated background */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 h1{
