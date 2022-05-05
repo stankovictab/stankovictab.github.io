@@ -1,7 +1,8 @@
 h1 {
-	color: rgb(56, 79, 141);
+	color: rgb(185, 204, 255);
+	font-weight: 600;
 }
 
 pre {
-	background-color: #161616;
+	background-color: #161616 !important;
 }
