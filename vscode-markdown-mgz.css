@@ -1,3 +1,7 @@
 h1 {
-	color: yellow;
+	color: rgb(56, 79, 141);
+}
+
+pre {
+	background-color: #161616;
 }
