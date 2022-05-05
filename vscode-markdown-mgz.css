@@ -1,8 +1,32 @@
+/* 
+This stylesheet is used to be injected into VSCode's Markdown Preview
+through the markdown.styles property.
+Because of the way this feature is poorly implemented, I had to upload it to this repository.
+Just imagine this is living in the .dotfiles repo and we'll all live happily ever after.
+*/
+
+body {
+	margin: 0 5vw;
+	color: white;
+}
+
 h1 {
-	color: rgb(185, 204, 255);
 	font-weight: 600;
 }
 
 pre {
-	background-color: #161616 !important;
+	padding: 33px !important;
+	background-color: #131313 !important;
+}
+
+/* The thing that starts with >, a callout basically */
+blockquote {
+	margin: 0 10px 0.7em 0;
+	background-color: #131313;
+	border-radius: 3px;
+	padding: 10px 16px;
+}
+
+blockquote p {
+	margin: 0;
 }
